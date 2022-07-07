@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_DATABASE: postgres
+  POSTGRES_HOST: susannjeproj3.cxqyjws49txq.us-east-1.rds.amazonaws.com
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  AWS_S3_BUCKET: arn:aws:s3:::test-1972719-dev
+  JWT_SECRET: testing
+  URL: https://306DF5B808C9F212F177DEF143B69184.gr7.us-east-1.eks.amazonaws.com:8100
