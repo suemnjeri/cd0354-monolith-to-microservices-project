@@ -1,5 +1,19 @@
 # Udagram Image Filtering Application
 
+<h2>Description</h2>
+
+In this project, I Refactored the Udagram Monolith image-filtering application to Microservices and implemented a CI/CD pipeline using Docker, Kubernetes and Travis Ci by following the steps below.
+
+• Created a PostgreSQL database on AWS RDS for storing the app’s metadata
+
+• Created an S3 bucket to store the images uploaded and displayed on the app 
+
+• Set up each microservice to run in its own Docker container 
+
+• Set up Travis CI pipeline to push images to Dockerhub 
+
+• Deployed the Dockerhub images to a Kubernetes cluster
+
 Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
 
 The project is split into two parts:
