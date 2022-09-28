@@ -8,7 +8,7 @@ In this project, I Refactored the Udagram Monolith image-filtering application t
 
 • Created an S3 bucket to store the images uploaded and displayed on the app 
 
-• Set up each microservice to run in its own Docker container 
+• Configured each microservice to run in its own Docker container 
 
 • Set up Travis CI pipeline to push images to Dockerhub 
 
